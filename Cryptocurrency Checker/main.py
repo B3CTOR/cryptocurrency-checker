@@ -7,7 +7,7 @@ from plyer import notification
 import datetime
 
 
-if __name__ == '__main__': #Here I get the cryptocurrency whit 'parse_crypto()' and then I initialize the webdriver.
+if __name__ == '__main__': #Here I get the cryptocurrency with 'parse_crypto()' and then I initialize the webdriver.
 	args = parse_crypto()
 	crypto_url = 'https://es.investing.com/crypto/{}'.format(args.crypto.lower())
 	driver = webdriver.Chrome(r'C:\chromedriver.exe')
