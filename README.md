@@ -9,7 +9,7 @@ This is a program which scrapes data of a specific cryptocurrency from https://e
 
 The information that is scraped is the actual value of the cryptocurrency and its variation. Then it shows a desktop notification with this information. Feel free to make any changes in the code and distribute it.
 
-Note: You should change the URL according to your country, in this case I used Investing ES (Spain). To change it, go to the main.py file in the 12 line:
+Note: You should change the URL according to your country, in this case I used Investing ES (Spain). To change it go to the main.py file in the 12 line:
 ```
 crypto_url = 'https://es.investing.com/crypto/{}'.format(args.crypto.lower())
 ```
